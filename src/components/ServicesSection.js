@@ -29,13 +29,9 @@ export default function ServicesSection() {
     const [service, setService] = useState({})
     const [serviceCategory, setServiceCategory] = useState({})
 
-    const setInitData = () => {
+    useEffect(() => {
         setServices(dataSource);
         setCategory(categoryList)
-    }
-
-    useEffect(() => {
-        setInitData()
     }, [])
 
     const paginate = (pageNumber) => {
