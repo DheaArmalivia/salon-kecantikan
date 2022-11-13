@@ -32,7 +32,7 @@ export default function ServicesSection() {
     useEffect(() => {
         setServices(dataSource);
         setCategory(categoryList)
-    }, [])
+    }, [dataSource, categoryList])
 
     const paginate = (pageNumber) => {
         setCurrentPage(pageNumber)

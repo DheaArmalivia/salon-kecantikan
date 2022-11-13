@@ -20,15 +20,15 @@ export default function Footer() {
                   <h4>Our Social Media</h4>
                   <div className="item-text-wrapper">
                     <span>Instagram : </span>
-                    <a href="#">@SalonNuni</a>
+                    <a href="/#">@SalonNuni</a>
                   </div>
                   <div className="item-text-wrapper">
                     <span>Facebook : </span>
-                    <a href="#">Salon Nuni</a>
+                    <a href="/#">Salon Nuni</a>
                   </div>
                   <div className="item-text-wrapper">
                     <span>Website : </span>
-                    <a href="#">www.salonnuni.com</a>
+                    <a href="/#">www.salonnuni.com</a>
                   </div>
                   </div>
               </div>
