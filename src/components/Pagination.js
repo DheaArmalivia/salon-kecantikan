@@ -17,9 +17,9 @@ export default function Pagination({itemsPerPage, totalItems, paginate}) {
             {pageNumbers.map((number) => {
                 return(
                     <li key={number} className="page-item">
-                        <a onClick={() => paginate(number)} className="page-link">
+                        <div onClick={() => paginate(number)} className="page-link">
                             {number}
-                        </a>
+                        </div>
                     </li>
                 )
                 
