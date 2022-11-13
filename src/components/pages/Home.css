@@ -1,0 +1,21 @@
+.description-section {
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #ffddc0;
+    color: #75563b;    
+}
+
+.services-section {
+    padding: 3rem;
+    text-align: center;
+    /* height: '500px'; */
+    background-color: #ffeedf
+}
+
+.services-section .service-list-wrapper {
+    padding: 1rem;
+    height: auto;
+    width: '600px';
+    background-color: '#a77554'
+}

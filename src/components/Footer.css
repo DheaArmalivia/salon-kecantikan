@@ -1,0 +1,31 @@
+.footer-container {
+    width: 100%;
+    height: 280px;
+    background: linear-gradient(90deg, rgb(117, 86, 59) 0%, rgb(167, 117, 84) 100%);
+    color: #fff;
+}
+
+.logo-wrapper {
+    width: 20%;
+}
+
+.footer-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    /* align-items: center; */
+}
+
+.item-wrapper {
+    margin: 20px
+}
+
+.item-text-wrapper {
+    width: 100%;
+    margin-top: 5px;
+}

@@ -1,0 +1,12 @@
+.banner-container {
+    position: 'relative';
+    text-align: 'center';
+  }
+  
+  .banner-text-wrapper {
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      color: #412c1a
+  }

@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "key": "hair",
+        "category": "Perawatan Rambut"
+    },
+    {
+        "id":2,
+        "key": "body",
+        "category": "Perawatan Tubuh"
+    },
+    {
+        "id":3,
+        "key": "face",
+        "category": "Perawatan Wajah"
+    },
+    {
+        "id":4,
+        "key": "hand&feet",
+        "category": "Perawatan Tangan dan Kaki"
+    }
+]

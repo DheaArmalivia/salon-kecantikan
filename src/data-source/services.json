@@ -1,0 +1,210 @@
+[
+    {
+        "id": 1,
+        "idCategory": "1",
+        "name": "Hair Spa",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 2,
+        "idCategory": "4",
+        "name": "Manicure",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 3,
+        "idCategory": "1",
+        "name": "Creambath Treatment",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 4,
+        "idCategory": "4",
+        "name": "Scrub Kaki",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 5,
+        "idCategory": "2",
+        "name": "Traditional Body Treatment",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 6,
+        "idCategory": "3",
+        "name": "Masker Led Light",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 7,
+        "idCategory": "3",
+        "name": "Anti Aging Treatment",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 8,
+        "idCategory": "3",
+        "name": "Totok Wajah",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 9,
+        "idCategory": "2",
+        "name": "Body Bleaching",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 10,
+        "idCategory": "1",
+        "name": "Cuci & Blow",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 11,
+        "idCategory": "4",
+        "name": "Pedicure",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 12,
+        "idCategory": "2",
+        "name": "Scrub Punggung",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 13,
+        "idCategory": "2",
+        "name": "Lulur badan",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 14,
+        "idCategory": "1",
+        "name": "Potong Rambut",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 15,
+        "idCategory": "1",
+        "name": "Anti Dandruff",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 16,
+        "idCategory": "4",
+        "name": "Nail art",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 17,
+        "idCategory": "3",
+        "name": "Facial Wajah",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 18,
+        "idCategory": "1",
+        "name": "Hair Mask",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 19,
+        "idCategory": "2",
+        "name": "Terapi Punggung",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 20,
+        "idCategory": "3",
+        "name": "Eyelash Extension",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 21,
+        "idCategory": "3",
+        "name": "Traditional Face Treatment",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 22,
+        "idCategory": "1",
+        "name": "Pelurusan Rambut",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 23,
+        "idCategory": "2",
+        "name": "Refleksi",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 24,
+        "idCategory": "4",
+        "name": "Chinese Foot Treatment",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 25,
+        "idCategory": "2",
+        "name": "Relief Massage Aromatherapy",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    },
+    {
+        "id": 26,
+        "idCategory": "2",
+        "name": "Mandi Susu",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac sapien in lorem semper dictum. Proin bibendum nibh ac lacus hendrerit, quis gravida tellus porttitor.",
+        "detail": "Nam nec nisl faucibus mi dignissim viverra. Pellentesque hendrerit tempor diam.",
+        "price": 499000
+    }
+]
