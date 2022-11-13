@@ -1,6 +1,4 @@
 import React from 'react'
-import { PaginationItem } from 'reactstrap';
-import { width } from 'dom-helpers';
 
 export default function Pagination({itemsPerPage, totalItems, paginate}) {
     const pageNumbers = [];
@@ -19,7 +17,7 @@ export default function Pagination({itemsPerPage, totalItems, paginate}) {
             {pageNumbers.map((number) => {
                 return(
                     <li key={number} className="page-item">
-                        <a onClick={() => paginate(number)} className="page-link">
+                        <a onClick={() => paginate(number)} href="!#" className="page-link">
                             {number}
                         </a>
                     </li>

@@ -29,9 +29,13 @@ export default function ServicesSection() {
     const [service, setService] = useState({})
     const [serviceCategory, setServiceCategory] = useState({})
 
-    useEffect(() => {
+    const setInitData = () => {
         setServices(dataSource);
         setCategory(categoryList)
+    }
+
+    useEffect(() => {
+        setInitData()
     }, [])
 
     const paginate = (pageNumber) => {
@@ -41,11 +45,11 @@ export default function ServicesSection() {
     const handleInput = (event) => {
         const name = event.target.name;
         const value = event.target.value;
-        if(name == 'text') {
+        if(name === 'text') {
             searchParam.text = value
         }
 
-        if(name == 'category') {
+        if(name === 'category') {
             searchParam.category = value
         }
         
@@ -56,20 +60,23 @@ export default function ServicesSection() {
         setServices(dataSource)
         console.log(searchParam);
         const filtered = services.filter((item) => {
-            if(searchParam.text != "" && searchParam.category != "") {
+            if(searchParam.text !== "" && searchParam.category !== "") {
                 return item.name.toLowerCase().includes(searchParam.text.toLowerCase()) && item.idCategory.includes(searchParam.category)
             } else {
-                if(searchParam.text != "") {
+                if(searchParam.text !== "") {
                     return item.name.toLowerCase().includes(searchParam.text.toLowerCase())
                 }
 
-                if(searchParam.category != "") {
+                if(searchParam.category !== "") {
                     return item.idCategory.includes(searchParam.category)
                 }
             }
-            if(searchParam.text == "" && searchParam.category == "") {
+            if(searchParam.text === "" && searchParam.category === "") {
                 return item
+            } else {
+                return false;
             }
+            
         })
         setServices(filtered)
         console.log("filtered ", filtered);
@@ -87,14 +94,14 @@ export default function ServicesSection() {
         const value = event.target.value;
         setSorting(value);
         console.log(value);
-        if(value == 'ASC') {
+        if(value === 'ASC') {
             const asc = services.sort((a, b) => {
                 if(a.name < b.name) { return -1}
                 if(a.name > b.name) { return 1}
                 return 0;
             })
             setServices(asc)
-        } else if(value == 'DESC') {
+        } else if(value === 'DESC') {
             const desc = services.sort((a, b) => {
                 if(a.name > b.name) { return -1}
                 if(a.name < b.name) { return 1}
@@ -113,7 +120,7 @@ export default function ServicesSection() {
         setShowModal(true)
         setService(item)
         const categoryS = categoryList.find((cat) => {
-            return item.idCategory == cat.id.toString()
+            return item.idCategory === cat.id.toString()
         })
         setServiceCategory(categoryS)
         
@@ -129,10 +136,10 @@ export default function ServicesSection() {
     const currentServices = services.slice(indexOfFirstServices, indexOfLastServices)
     console.log(services);
 
-    const urlImg = (service.idCategory == "1") ? img1 : 
-                    (service.idCategory == "2") ? img2 :
-                    (service.idCategory == "3") ? img3 :
-                    (service.idCategory == "4") ? img4 : imgO;
+    const urlImg = (service.idCategory === "1") ? img1 : 
+                    (service.idCategory === "2") ? img2 :
+                    (service.idCategory === "3") ? img3 :
+                    (service.idCategory === "4") ? img4 : imgO;
     
     return (
         <div className="services-wrapper">
@@ -201,7 +208,7 @@ export default function ServicesSection() {
                 <ModalBody>
                     <div className="row">
                         <div style={{width:'22rem', height:'16.5rem'}} className="col">
-                            <img src={urlImg} style={{width: '100%', height: '100%'}}/>
+                            <img src={urlImg} alt="" style={{width: '100%', height: '100%'}}/>
                         </div>
                         <div className="col">
                             <h3>{service.name}</h3>

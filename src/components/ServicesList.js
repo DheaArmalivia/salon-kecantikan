@@ -19,22 +19,20 @@ export default function ServicesList({source, onShow}) {
   const [data, setData] = useState(obj)
 
   useEffect(() => {
-    console.log(data);
-    
     setData(source)
-  })
+  }, [source])
 
   return (
     <div style={{padding:20}}>
       {
         data.map((item, i) => {
-        const url = (item.idCategory == "1") ? img1 : 
-                    (item.idCategory == "2") ? img2 :
-                    (item.idCategory == "3") ? img3 :
-                    (item.idCategory == "4") ? img4 : img;
+        const url = (item.idCategory === "1") ? img1 : 
+                    (item.idCategory === "2") ? img2 :
+                    (item.idCategory === "3") ? img3 :
+                    (item.idCategory === "4") ? img4 : img;
         return (
           <div className="item-card-wrapper" key={i} onClick={() => onShow(item)}>
-            <img className="image-wrapper" src={url} />
+            <img className="image-wrapper" alt="" src={url} />
             <div className="text-wrapper">
               <span>{item.name}</span>
             </div>
